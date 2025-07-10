@@ -1,6 +1,9 @@
+#      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#      <title>志愿者管理系统</title>
+#  </head>
+#  <body>S
 class volunteer:
     all_volunteers = {}
-
     def create_base_files():  # 创建基础数据所需要的txt文件
         file_path = "volunteer.txt"
         try:
